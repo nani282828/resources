@@ -1,3 +1,5 @@
+echo '------------------installing curl------------------'
+sudo apt-get install -y curl
 echo '--------------install mysql server----------------'
 sudo apt-get install -y mysql-server
 echo '-------------install mysql client-----------------'
