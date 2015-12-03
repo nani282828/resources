@@ -1,0 +1,6 @@
+to add ssh keys perminently do following things
+
+IdentityFile ~/.ssh/gitHubKey
+IdentityFile ~/.ssh/id_rsa_buhlServer 
+
+add above two links to /etc/ssh/ssh_config
