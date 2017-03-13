@@ -59,14 +59,7 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
 npm install -g bower
-echo '----------------------installing scrapy-----------------------'
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 627220E7
-echo 'deb http://archive.scrapy.org/ubuntu scrapy main' | sudo tee /etc/apt/sources.list.d/scrapy.list
-sudo apt-get update && sudo apt-get install scrapy
-
-echo '--------------install hubstaff--------------------'
-wget https://hubstaff-production.s3.amazonaws.com/downloads/HubstaffClient/Builds/Release/1.2.1-79428cc/Hubstaff-1.2.1-79428cc.sh
-
-
-sudo chmod 777 Hubstaff-1.2.1-79428cc.sh
-./Hubstaff-1.2.1-79428cc.sh
+echo '-----------install notebook plus plus installation-----------------------------------'
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
